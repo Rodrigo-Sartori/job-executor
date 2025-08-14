@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: job-executor
+    external-api:
+      dairy-base-url: https://dairy-back.onrender.com
