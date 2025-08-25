@@ -13,7 +13,7 @@ public class HealthCheckerJob {
 
     private final HealthCheckerService healthCheckerService;
 
-    @Scheduled(cron =  "1 * * * * *")
+    @Scheduled(cron =  "3 * * * * *")
     public void execute(){
         System.out.println("job begin");
         healthCheckerService.getHealthCheckerDairy();
